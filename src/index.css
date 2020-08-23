@@ -1,5 +1,5 @@
-#root
-{color:white; width: auto; height: 2000px; 
+.container-fluid
+{color:white; width: auto; height: 3000px; 
 align-content: center;
 padding: 20px; font-size: 20px;  border-radius: 10px; margin-top: 15px; 
 margin-left:10px;margin-right:10px; background-image: url("../src/images/unsplash.jpg" );
