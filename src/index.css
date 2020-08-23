@@ -2,7 +2,6 @@
 {color:white; width: auto; height: 3000px; 
 align-content: center;
 padding: 20px; font-size: 20px;  border-radius: 10px; margin-top: 15px; 
-margin-left:10px;margin-right:10px; background-image: url("../src/images/unsplash.jpg" );
-background-attachment: fixed;background-size: cover;background-clip: inherit;background-position:center;}
+margin-left:10px;margin-right:10px; background-color: rgb(14, 5, 31);}
  .header{text-align: center;font-size: xx-large;}
   
