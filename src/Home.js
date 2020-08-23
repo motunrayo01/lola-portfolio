@@ -31,7 +31,7 @@ class Home extends Component {
               
                 <h2 className="clock"> {new Date().toLocaleTimeString()}.</h2>
                 <h1> Okunniga Mary Omolola </h1>
-                <pre> -------------------------------------------</pre>
+                <pre> ------------------------------------</pre>
                 
                 <div className="image">
                 <img src={pic} alt='profile'  />
@@ -40,10 +40,10 @@ class Home extends Component {
 
                  <div className="bio" style={{float:"right", width:"50%", textAlign:"center" }}>
                  <h1> Hello!</h1>
-                <pre> ______________________________________________________________________</pre>
+                <pre> ____________________________________________________________</pre>
                 <p> My name is Omolola. I'm a frontend developer. </p>
                 <p> I'm always looking forward to working on meaningful projects. </p>
-                <pre> ______________________________________________________________________</pre>
+                <pre> ____________________________________________________________</pre>
           
                 {
                     this.state.displayBio ?(
