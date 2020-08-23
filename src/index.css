@@ -1,9 +1,11 @@
-#root{color:#222524; width: auto; height: 1900px; 
-    align-content: center;
-      padding: 20px; font-size: 20px;  border-radius: 10px; margin-top: 15px; 
-        margin-left:10px;margin-right:10px; background-image: url("../src/images/bg1.jpg" );
-        background-attachment: fixed;background-size:cover;
-        background-clip: inherit;background-position:center; background-repeat: no-repeat;}
+#root
+{color:hsl(0, 0%, 20%); display: flex;flex-direction: column;
+        
+        height: 2000px; margin: 10px; font-size:24px; text-align: center;
+    
+        background-image: url("../src/images/unsplash.jpg" );
+        background-attachment: fixed;background-size:100% 100%;
+        background-clip: inherit;background-position:center
+        ;width: 100% ;background-repeat: no-repeat;}
  .header{text-align: center;font-size: xx-large;}
-  .jumbotron {color: white; text-align: center;
-      margin-top: 50px;background: #717573;opacity: 0.6;}
+  

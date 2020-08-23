@@ -27,18 +27,14 @@ class Home extends Component {
         return (
          
               <div>
-                <div className="Front" style={{float:"left", width:"50%", textAlign:"center",  }}>
-              
                 <h2 className="clock"> {new Date().toLocaleTimeString()}.</h2>
-                <h1> Okunniga Mary Omolola </h1>
-                <pre> ------------------------------------</pre>
                 
-                <div className="image">
+                
                 <img src={pic} alt='profile'  />
-                </div>
-                </div>
+              
 
-                 <div className="bio" style={{float:"right", width:"50%", textAlign:"center" }}>
+                 <div className="bio" style={{float:"right", width:"50%",
+                  textAlign:"center" }}>
                  <h1> Hello!</h1>
                 <pre> __________________________________________________________</pre>
                 <p> My name is Omolola. I'm a frontend developer. </p>

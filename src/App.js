@@ -6,9 +6,12 @@ import Skills from './Skills';
 import {BrowserRouter, Route} from 'react-router-dom';
 import Nav from './Nav';
 import 'bootstrap/dist/css/bootstrap.min.css';
+
 function App(){
     return(
         <div>
+            <div className="container" >
+                
             <BrowserRouter>
                 <Nav/>
                 <Route path='/' exact component={Home} />
@@ -16,6 +19,7 @@ function App(){
                 <Route path='/social-profiles' component={SocialProfiles} />
                 <Route path='/skills' component={Skills} />
             </BrowserRouter>
+            </div>
         </div>
     )
 

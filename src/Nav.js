@@ -5,8 +5,10 @@ import {Link} from 'react-router-dom';
 function Nav(){
     return(
         <div>
-      
+     
     <ul className="header ">
+    
+      
       <li className="badge">
         <Link to='/' className="badge badge-pill 
                     badge-primary">Home </Link>
