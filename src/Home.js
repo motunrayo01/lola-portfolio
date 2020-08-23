@@ -40,10 +40,10 @@ class Home extends Component {
 
                  <div className="bio" style={{float:"right", width:"50%", textAlign:"center" }}>
                  <h1> Hello!</h1>
-                <pre> ____________________________________________________________</pre>
+                <pre> __________________________________________________________</pre>
                 <p> My name is Omolola. I'm a frontend developer. </p>
                 <p> I'm always looking forward to working on meaningful projects. </p>
-                <pre> ____________________________________________________________</pre>
+                <pre> __________________________________________________________</pre>
           
                 {
                     this.state.displayBio ?(
