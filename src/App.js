@@ -9,18 +9,21 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App(){
     return(
-        <div>
-            <div className="container" >
+            <div>
+           
                 
             <BrowserRouter>
                 <Nav/>
+                <div className="container-fluid" >
                 <Route path='/' exact component={Home} />
                 <Route path='/projects'  component={Projects} />
                 <Route path='/social-profiles' component={SocialProfiles} />
                 <Route path='/skills' component={Skills} />
+                </div>
             </BrowserRouter>
+           
             </div>
-        </div>
+       
     )
 
 }

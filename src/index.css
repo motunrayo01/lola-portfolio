@@ -1,11 +1,8 @@
 #root
-{color:hsl(0, 0%, 20%); display: flex;flex-direction: column;
-        
-        height: 2000px; margin: 10px; font-size:24px; text-align: center;
-    
-        background-image: url("../src/images/unsplash.jpg" );
-        background-attachment: fixed;background-size:100% 100%;
-        background-clip: inherit;background-position:center
-        ;width: 100% ;background-repeat: no-repeat;}
+{color:white; width: auto; height: auto; 
+align-content: center;
+padding: 20px; font-size: 20px;  border-radius: 10px; margin-top: 15px; 
+margin-left:10px;margin-right:10px; background-image: url("../src/images/unsplash.jpg" );
+background-attachment: fixed;background-size: cover;background-clip: inherit;background-position:center;}
  .header{text-align: center;font-size: xx-large;}
   
