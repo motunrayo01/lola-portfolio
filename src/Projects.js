@@ -8,7 +8,7 @@ import finances from './finances.PNG';
 
     return(     
                 <div>
-                <div className="continer-fluid">
+                
                     <div>
                     <h2>SIMPLE CALCULATOR </h2>
                      <p>This was designed using HTML,CSS and Javascript. 
@@ -49,8 +49,7 @@ import finances from './finances.PNG';
                     < a href= 'https://github.com/motunrayo01' className="badge badge-pill 
                     badge-primary"> MORE</a>
                 </div>
-                </div>
-                
+               
                 
                  
         )

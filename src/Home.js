@@ -30,7 +30,7 @@ class Home extends Component {
                 <h2 className="clock"> {new Date().toLocaleTimeString()}.</h2>
                 
                 
-                <img src={pic} alt='profile'  />
+                <img src={pic} alt='profile'  width="50%"/>
               
 
                  <div className="bio" style={{float:"right", width:"50%",
