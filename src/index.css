@@ -1,7 +1,7 @@
 #root
-{color:white; height: 10000px; 
+{color:white; height: 4000px; 
 text-align: center;
 padding: 20px; font-size: 20px;  border-radius: 10px; margin-top: 15px; 
-margin-left:10px;margin-right:10px; background-color: rgb(14, 5, 31);}
+margin-left:10px;margin-right:10px; background-color: rgb(14, 5, 31); opacity:1}
  .header{text-align: center;font-size: xx-large;}
   
