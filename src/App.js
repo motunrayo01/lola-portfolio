@@ -17,7 +17,7 @@ function App(){
             <BrowserRouter>
                 <Nav/>
                 <Route>
-                <Route path='/Home' exert component={Home}/>
+                <Route path='/' exact component={Home}/>
                 
                 <Route path='/Skills'  component={Skills}/>
                 <Route path='/Portfolio'  component={Portfolio}/>
@@ -26,7 +26,7 @@ function App(){
                
                 </Route>
                 
-                
+                <Home/>
                 <About/>
                 <Skills/>    
                 <Portfolio/>
