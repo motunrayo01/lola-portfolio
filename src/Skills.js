@@ -9,7 +9,7 @@ class Skills extends Component{
          
            
                 <div className="container">
-                <div className="row skills">
+                <div className="row skills"  id="#skills">
                 <div className="col-sm-12 ">
                   <h4> Skills </h4>
                 </div>

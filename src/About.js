@@ -14,10 +14,10 @@ class About extends Component {
                   
                     <h4>About me</h4>
                     <p>Hi i am Okunniga Mary Omolola a junior web developer based in Lagos, Nigeria. <br/>
-                    I'm always looking forward to working on meaningful projects.
+                    I'm always looking forward to working on meaningful projects.</p>
                     I studied Microbiology, i began learning web development after my final year project and build some couples of project.
                     <p> I love creating websites and i also do UI/UX Design</p>
-                    </p>
+                   
                    
                    
                     </div>

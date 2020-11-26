@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
-
+import {Link} from 'react-router-dom';
 
 
 
@@ -29,12 +29,12 @@ class nav extends Component {
        
        
           <Nav className="mr-auto">
-          <Nav.Link className="link" href="/Home">Home</Nav.Link>
-            <Nav.Link className="link" href="/About">About</Nav.Link>
-            <Nav.Link className="link" href="/Skills">Skills</Nav.Link>
-            <Nav.Link className="link" href="/Portfolio">Portfolio</Nav.Link>
+          <Link to="Home">Home</Link>
+            <Link to="About">About</Link>
+            <Link to="Skills">Skills</Link>
+            <Link to="Portfolio">Portfolio</Link>
            
-            <Nav.Link className="link" href="/SocialProfiles">Contact</Nav.Link>
+            <Link to="SocialProfiles">Contact</Link>
             
            
           </Nav>

@@ -3,11 +3,11 @@ import SOCIAL_PROFILES from './assets/socialProfiles';
 
 class SocialProfile extends Component{
     render(){
-        const {  Link, Image, Number} = this.props.socialProfiles;
+        const {  Link, Image} = this.props.socialProfiles;
         return (
          //   <div> {this.props.project.Description}</div>
             <div style={{display:'inline-block', width:150, margin:10}}> 
-               <p>{Number}</p>
+               
                 <a href={Link}><img src={Image} alt='profile' 
                 style={{width: 60, height:50, display:'inline'}}/></a> <br/>
                 

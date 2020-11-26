@@ -33,6 +33,13 @@ body {
   justify-content: space-evenly;
   width: 100vw;
 }
+a{
+  color: #9E0835;
+}
+a:hover {
+  color: #e3e3e7;
+  text-decoration: none;
+}
 .home{
   color: #e3e3e7;
   margin-top: 10rem;
