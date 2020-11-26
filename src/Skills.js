@@ -1,26 +1,36 @@
 import React, {Component} from 'react';
-import {ProgressBar} from 'react-bootstrap';
+
 
 class Skills extends Component{
   render(){
     return (
       <div> 
          
-         <h2> SKILLS </h2>
+         
            
-             
-                <div className='frontend'>
-                
-                <ul>
-                <li> HTML  <ProgressBar variant="success" animated now={97}/> </li> <br/>
-                  <li> CSS  <ProgressBar variant="success" animated now={97}/> </li> <br/>
-                  <li> Css framework (bootstrap) </li> <ProgressBar variant="success" animated now={97}/> <br/>
-                  <li> Javascript </li> <ProgressBar variant="success" animated now={75}/> <br/>
-                  <li> Javascript framework (React)</li>  <ProgressBar variant="success"  animated now={60}/><br/>
-                 
+                <div className="container">
+                <div className="row skills">
+                <div className="col-sm-12 ">
+                  <h4> Skills </h4>
+                </div>
+                </div>
+                  <div className="row skill">
+                <div className="col-sm-6 ">
                   
-                  </ul> 
-                  </div>                
+                    <p> <img src="https://res.cloudinary.com/morayo/image/upload/v1606336395/bi_arrow-right-short_q8ze5c.png" alt="arrow"/>HTML   </p> <br/>
+                    <p> <img src="https://res.cloudinary.com/morayo/image/upload/v1606336395/bi_arrow-right-short_q8ze5c.png" alt="arrow"/>Bootstrap   </p>  <br/>
+                    <p> <img src="https://res.cloudinary.com/morayo/image/upload/v1606336395/bi_arrow-right-short_q8ze5c.png" alt="arrow"/>JavaScript   </p> <br/>
+                </div>
+                <div className="col-sm-6 ">
+              
+                <p> <img src="https://res.cloudinary.com/morayo/image/upload/v1606336395/bi_arrow-right-short_q8ze5c.png" alt="arrow"/>CSS   </p> <br/>
+                <p> <img src="https://res.cloudinary.com/morayo/image/upload/v1606336395/bi_arrow-right-short_q8ze5c.png" alt="arrow"/>Figma  </p> <br/>
+                <p> <img src="https://res.cloudinary.com/morayo/image/upload/v1606336395/bi_arrow-right-short_q8ze5c.png" alt="arrow"/>React   </p> <br/>
+
+                
+                  </div>
+                  </div>    
+                  </div>         
                 
             
       </div>

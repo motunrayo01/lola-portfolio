@@ -1,8 +1,198 @@
-#root
-{color:white; height: 4000px; 
-text-align: center;
-padding: 20px; font-size: 20px;  border-radius: 10px; margin-top: 15px; 
-margin-left:10px;margin-right:10px; background-color: rgb(14, 5, 31); opacity:1}
- .header{text-align: center;font-size: xx-large;}
- .frontend{text-align: left;}
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color:#0a192f;
+   
+  }
+.navbar{
+  position: fixed;
+  width: 100vw;
+  margin-right: 2rem;
+  background: #0a192f;
+  z-index: 99999;
+  top: 0;
+  left: 0;
+  opacity: 1;
+  height: 10vh;
+  box-shadow:0 -10px 5px #000, 0 10px 5px #000;;
+  text-align: left;
+}
+
+.navbar-light .navbar-nav .nav-link{
+  color: #a13036;
   
+}
+.navbar-light .navbar-nav .nav-link.active{
+  color: #a13036;
+  
+}
+.mr-auto { 
+ 
+  justify-content: space-evenly;
+  width: 100vw;
+}
+.home{
+  color: #e3e3e7;
+  margin-top: 10rem;
+  margin-left: 2rem;
+}
+.home p{
+  color: #9E0835;
+}
+button{
+  background: #0a192f;
+  color: #e3e3e7;
+  border: thin solid #9E0835;
+  margin: 2rem;
+  font-size: 1rem;
+}
+button:hover{
+  color:#9E0835;
+}
+.about{
+  margin-top: 10rem;
+  margin-left: 2rem;
+  color: #e3e3e7;
+  font-size: 1.5rem;
+  
+}
+.about h4{
+  color: #9E0835;
+}
+.about img{
+  width: 40vw;
+  height: 40vh;
+}
+.skill{
+  
+  margin-left: 2rem;
+  color: #e3e3e7;
+  font-size: 1.5rem;
+  
+}
+.skills{
+  padding-top: 10rem;
+  margin: 2rem;
+  color: #9E0835;
+}
+.project1{
+  margin-top: 10rem;
+  margin-left: 2rem;
+  color: #e3e3e7;
+  font-size: 1.5rem;
+  
+}
+.project1 img{
+  width: 35vw;
+  height: 45vh;
+}
+ h4{
+  color: #9E0835;
+}
+.description{
+  margin-top: 5rem;
+}
+span{
+  color: #9E0835;
+}
+.description img {
+  width: 4vw;
+  height: 7vh;
+}
+.design{
+  margin-top: 5rem;
+  margin-left: 2rem;
+  color: #e3e3e7;
+  font-size: 1.5rem;
+
+}
+.design img{
+  width: 20vw;
+  height: 35vh;
+}
+.design1{
+  margin-top: 2.5rem;
+}
+@media only screen and (max-width:700px){
+  .navbar{
+    position: fixed;
+    width: 100vw;
+    margin-right: 2rem;
+    background: #0a192f;
+    z-index: 99999;
+    
+    height: 13vh;
+    box-shadow:0 -10px 5px #000, 0 10px 5px #000;;
+    text-align: left;
+  }
+  .home{
+    color: #e3e3e7;
+    margin-top: 10rem;
+    margin-left: 1rem;
+  }
+  .about{
+    margin-top: 10rem;
+    margin-left: 1rem;
+    color: #e3e3e7;
+    font-size: 1.5rem;
+    
+  }
+  .about img{
+    width: 50vw;
+    height: 30vh;
+  }
+  .skill{
+  
+    margin-left: 1rem;
+    color: #e3e3e7;
+    font-size: 1.5rem;
+    
+  }
+  .skills{
+    padding-top: 10rem;
+    margin: 1rem;
+    color: #9E0835;
+  }
+  
+  
+  .project1{
+    margin-top: 10rem;
+    margin-left: 1rem;
+    color: #e3e3e7;
+    font-size: 1.5rem;
+    
+  }
+  .project1 img{
+    width: 50vw;
+    height: 40vh;
+  }
+   h4{
+    color: #9E0835;
+  }
+  .description{
+    margin-top: 5rem;
+  }
+  span{
+    color: #9E0835;
+  }
+  .description img {
+    width: 7vw;
+    height: 5vh;
+  }
+  .design{
+    margin-top: 5rem;
+    margin-left: 1rem;
+    color: #e3e3e7;
+    font-size: 1.5rem;
+  
+  }
+  .design img{
+    width: 50vw;
+    height: 30vh;
+  }
+  .design1{
+    margin-top: 2.5rem;
+  }
+}

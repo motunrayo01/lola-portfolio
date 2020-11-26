@@ -22,8 +22,11 @@ class SocialProfiles extends Component{
     render(){
         return (
             <div>
-                 
-                <h2> Contact me! </h2>
+                 <div className="container">
+                    <div className="row project1">
+                    <div className="col-sm-6 "> 
+                <h4> Contact me! </h4>
+                </div>
                 <div> 
                     {SOCIAL_PROFILES.map (SOCIAL_PROFILE => {
                         return (
@@ -35,7 +38,8 @@ class SocialProfiles extends Component{
                     }
                 </div>
                 
-                
+                </div>
+                </div>
                  </div>
         )
     }

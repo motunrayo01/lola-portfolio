@@ -2,7 +2,7 @@ import twitter from '../images/twitter.png';
 import email from '../images/email.png';
 import github from '../images/github.png';
 import linkedin from '../images/linkedin.png';
-import phone from '../images/phone.png';
+
 import whatsapp from '../images/whatsapp.png';
 
 
@@ -33,11 +33,7 @@ const SOCIAL_PROFILES= [{
     Image:whatsapp,
     
 },
-{
-    id: 6,
-    Number: '07035764622',
-    Image:phone,
-}
+
 ];
 
 export default SOCIAL_PROFILES;
