@@ -18,7 +18,7 @@ class Home extends Component {
            
                 <h1>  OKUNNIGA MARY OMOLOLA.  </h1>
                 <h6>I'm a frontend developer based in Lagos, Nigeria.</h6> <br/> <br/>
-                 <a href="mailto:https://gmail.com/okunnigaomolola@gmail.com"><button>Contact Me</button></a>
+                 <a href="mailto:okunnigaomolola@gmail.com"><button>Contact Me</button></a>
                 </div>
                 </div>
                 </div>
