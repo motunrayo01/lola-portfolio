@@ -29,12 +29,12 @@ class nav extends Component {
        
        
           <Nav className="mr-auto">
-          <Nav.Link className="link" href="Home">Home</Nav.Link>
-            <Nav.Link className="link" href="About">About</Nav.Link>
-            <Nav.Link className="link" href="Skills">Skills</Nav.Link>
-            <Nav.Link className="link" href="Portfolio">Portfolio</Nav.Link>
+          <Nav.Link className="link" href="/Home">Home</Nav.Link>
+            <Nav.Link className="link" href="/About">About</Nav.Link>
+            <Nav.Link className="link" href="/Skills">Skills</Nav.Link>
+            <Nav.Link className="link" href="/Portfolio">Portfolio</Nav.Link>
            
-            <Nav.Link className="link" href="SocialProfiles">Contact</Nav.Link>
+            <Nav.Link className="link" href="/SocialProfiles">Contact</Nav.Link>
             
            
           </Nav>

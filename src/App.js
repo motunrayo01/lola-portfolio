@@ -17,7 +17,7 @@ function App(){
             <BrowserRouter>
                 <Nav/>
                 <Route>
-                
+                <Route path='/About'  component={About}/>
                 <Route path='/Skills'  component={Skills}/>
                 <Route path='/Portfolio'  component={Portfolio}/>
                 <Route path='/SocialProfiles'  component={SocialProfiles}/>
