@@ -17,7 +17,6 @@ function App(){
             <BrowserRouter>
                 <Nav/>
                 <Route>
-                <Route path='/' exact component={Home}/>
                 
                 <Route path='/Skills'  component={Skills}/>
                 <Route path='/Portfolio'  component={Portfolio}/>
